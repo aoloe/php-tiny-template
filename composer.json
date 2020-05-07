@@ -1,0 +1,25 @@
+{
+    "name": "aoloe/tiny-template",
+    "type": "library",
+    "description": "One tiny classe for creating tiny PHP Apps",
+    "keywords": [
+        "php",
+        "template"
+    ],
+    "homepage": "https://github.com/aoloe/php-tiny-template",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ale Rimoldi",
+            "email": "ale@ideale.ch",
+            "homepage": "http://ideale.ch",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "classmap": ["src/TinyTemplate.php"]
+    }
+}
